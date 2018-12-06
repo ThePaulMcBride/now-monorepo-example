@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "node/*.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "go/*.go",
+      "use": "@now/go"
+    }
+  ]
+}
